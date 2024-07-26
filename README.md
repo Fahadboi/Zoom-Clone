@@ -54,11 +54,18 @@ The Zoom Clone App is a real-time video conferencing application built to emulat
 
 ### Environment Variables
 
-Create a `.env` file in the root of the `server` folder and add the following:
+Create a `.env` file in the root of the `server` and `client` folder and add the following:
 
+#### For Server
 ```
 STREAM_API_KEY=your_stream_api_key
 STREAM_API_SECRET=your_stream_api_secret
+```
+
+#### For Client
+```
+VITE_APP_STREAM_API_KEY=your_stream_api_key
+VITE_APP_STREAM_API_SECRET=your_stream_api_secret
 ```
 
 ### Running the Application
